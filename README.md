@@ -18,3 +18,6 @@ It is run like this:
 ```
  .\setup-aspnet-identity-full.ps1 -ProjectName "IdentityTemplate" -DbProvider "sqlite"
 ```
+
+## Notes
+* I am going to make another version of this which uses Tailwind CSS instead of the default BootStrap 5.
