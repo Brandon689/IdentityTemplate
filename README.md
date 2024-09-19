@@ -13,6 +13,7 @@ Complete Auth for ASP .NET 9 projects
 Identity core UI supports SQLServer, Sqlite, Postgres, and Cosmos.
 To use one of these instead of Sqlite you can just run the .ps1 script provided and change the connection string, and overwrite the scaffolded Areas/Identity code.
 
+This project has been setup so you don't need to run the powershell script. But if you want to create it with a different db you can do so.
 It is run like this:
 ```
  .\setup-aspnet-identity-full.ps1 -ProjectName "IdentityTemplate" -DbProvider "sqlite"
