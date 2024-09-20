@@ -1,6 +1,6 @@
-# IdentityTemplate
+ # Identity Template - Bootstrap 5
 
-Complete Auth for ASP .NET 9 projects
+Complete Auth for ASP .NET 9 projects or .NET 8.
 
 * ASP Razor Pages / MVC scaffolded Identity
 * Web Api with Auth
@@ -8,6 +8,12 @@ Complete Auth for ASP .NET 9 projects
 * Admin Area
 * Sqlite
 * EF Core. Remember you are free to use any other ORM or not ORM at all for other parts of your application.
+
+## Setup
+Run this in the root of the project (in the same folder as .csproj)
+```
+dotnet ef database update
+```
 
 ## Databases
 Identity core UI supports SQLServer, Sqlite, Postgres, and Cosmos.
@@ -20,4 +26,5 @@ It is run like this:
 ```
 
 ## Notes
-* I am going to make another version of this which uses Tailwind CSS instead of the default BootStrap 5.
+* I have made another template which uses Tailwind:
+https://github.com/Brandon689/IdentityTemplateTailwind
