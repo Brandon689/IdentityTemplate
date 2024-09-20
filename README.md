@@ -26,4 +26,5 @@ It is run like this:
 ```
 
 ## Notes
-* I am going to make another version of this which uses Tailwind CSS instead of the default BootStrap 5.
+* I have made another template which uses Tailwind instead of Bootstrap 5:
+https://github.com/Brandon689/IdentityTemplateTailwind
