@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - IdentityTemplate</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/IdentityTemplate.styles.css" asp-append-version="true" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header class="bg-dark shadow text-white py-2 px-4">
+        <nav class="h-100">
+            <div class="d-flex align-items-center justify-content-between w-100">
+                <ul class="d-flex list-unstyled mb-0">
+                    <li class="me-3">
+                        <a class="text-light text-decoration-none small" asp-area="" asp-page="/Index">Visit Site</a>
+                    </li>
+                    <li>
+                        <a class="text-light text-decoration-none small" asp-area="" asp-page="/">New +</a>
+                    </li>
+                </ul>
+                <partial name="_AdminLoginPartial" />
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
