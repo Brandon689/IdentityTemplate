@@ -1,4 +1,4 @@
-# IdentityTemplate
+ # Identity Template - Bootstrap 5
 
 Complete Auth for ASP .NET 9 projects
 
@@ -26,5 +26,5 @@ It is run like this:
 ```
 
 ## Notes
-* I have made another template which uses Tailwind instead of Bootstrap 5:
+* I have made another template which uses Tailwind:
 https://github.com/Brandon689/IdentityTemplateTailwind
