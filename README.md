@@ -9,6 +9,12 @@ Complete Auth for ASP .NET 9 projects
 * Sqlite
 * EF Core. Remember you are free to use any other ORM or not ORM at all for other parts of your application.
 
+## Setup
+Run this in the root of the project (in the same folder as .csproj)
+```
+dotnet ef database update
+```
+
 ## Databases
 Identity core UI supports SQLServer, Sqlite, Postgres, and Cosmos.
 To use one of these instead of Sqlite you can just run the .ps1 script provided and change the connection string, and overwrite the scaffolded Areas/Identity code.
